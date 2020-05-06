@@ -1,4 +1,4 @@
-# UXDI - Code in a Day
+# UXDI - Code in a Day 💻
 
 This is code from the day of brain breaking where I turned everyone in UXDI31's brain to mush.
 
