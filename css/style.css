@@ -1,0 +1,60 @@
+h2 {
+  text-decoration: underline;
+}
+
+ul li {
+  text-decoration: none;
+}
+
+div {
+  background: hotpink;
+  width: auto;
+  -webkit-transition: background 1s ease-out 1s;
+  -moz-transition: background 1s ease-out 1s;
+  -o-transition: background 1s ease-out 1s;
+  transition: background 1s ease-out 1s;
+}
+
+/* ----- Classes ------ */
+
+.pun-block {
+  border: 2px dotted chartreuse;
+  background: aliceblue;
+}
+
+.shouting {
+  text-transform: uppercase;
+}
+
+.thicc {
+  font-weight: 800;
+}
+
+/* ----- IDs ------ */
+
+#fave-colors {
+  border: 1px dashed blue;
+}
+
+/* ---- Media Query Examples ----- */
+
+body {
+  background-color: darkolivegreen !important;
+}
+
+li {
+  list-style: none;
+  display: block;
+  padding: 1em;
+  margin-left: 3em;
+}
+
+@media screen and (min-width: 900px) {
+  body {
+    background-color: darkorange !important;
+  }
+
+  li {
+    display: inline-block;
+  }
+}
